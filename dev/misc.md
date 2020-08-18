@@ -10,8 +10,10 @@
 C/C++的工作原理：先将语句转化为汇编，再把汇编转换为二进制命令传给CPU
 Java：编译成.class文件（字节码文件），JVM把字节码文件解析成汇编和二进制命令。
 ```
+1. [字节码](https://juejin.im/post/6844903588716609543)
 
 ## 知识
+1. ﻿[﻿Java多线程之ReentrantLock与Condition](https://www.cnblogs.com/xiaoxi/p/7651360.html)
 1. [ThreadLocalMap里Entry为何声明为WeakReference](https://cloud.tencent.com/developer/article/1125219)
 
 ## 类型
