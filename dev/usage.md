@@ -1,5 +1,23 @@
 # 使用
 
+## 内存
+* [JDK工具](https://www.cnblogs.com/z-sm/p/6745375.html)
+* [jmap -histo pid 输出的对象](https://blog.csdn.net/lxb_champagne/article/details/18352945)
+* [Java程序员必备：常见OOM异常分析](https://juejin.im/post/6844903957920219143)
+* [dump文件分析]https://blog.csdn.net/lkforce/article/details/60878295
+
+```
+jmap heap 1
+jmap -histo 1 > 1.txt
+jcmd 1 GC.run
+```
+
+docker-compose文件里设置启用jdk工具
+```
+cap_add:
+  - SYS_PTRACE
+```
+
 ## 启动
 1. java -jar abc.jar -Xmx200m --logging.config=abc/logback.xml // 指定log配置文件执行jar，jar必须放最前面。[参考](http://tengj.top/2017/04/05/springboot7/)
 

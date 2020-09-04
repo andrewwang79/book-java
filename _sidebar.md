@@ -29,5 +29,3 @@
       * [Hadoop](bigdata/Hadoop.md)
       * [Spark](bigdata/Spark.md)
       * [Storm](bigdata/Storm.md)
-* 参考
-  * [第三方服务](ref/third.md)
