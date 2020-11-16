@@ -77,3 +77,4 @@ JPA多表查询
 * [Jackson Exceptions – Problems and Solutions](http://www.baeldung.com/jackson-exception)
 * [JPA手册，含命名规范](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
 * [JPA使用](https://www.jianshu.com/p/0cb0ffe07b16)
+* [SpringMVC异常处理详解](http://www.cnblogs.com/xinzhao/p/4902295.html)
