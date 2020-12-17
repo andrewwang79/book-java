@@ -50,3 +50,7 @@
 
 ## Kaptcha(验证码)
 * http://my.oschina.net/CandyDesire/blog/209364
+
+## 内存数据库
+* https://qindongliang.iteye.com/blog/2136239
+* https://blog.csdn.net/csdn2193714269/article/details/73485533
