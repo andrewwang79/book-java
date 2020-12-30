@@ -4,6 +4,10 @@
 ```java
 Map<String, Company> objMap = list.stream().collect(Collectors.toMap(Company::getCode, (obj) -> obj));
 ```
+1. list到set
+```java
+Set<String> objSet = list.stream().filter(o -> o.count() > 0).map(Company::getCode).collect(Collectors.toSet());
+```
 
 1. 循环处理(java8)
 ```java

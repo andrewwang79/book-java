@@ -8,6 +8,10 @@
 * [RSA与AES混合加密算法的实现](https://blog.csdn.net/jkxqj/article/details/25228707)
 * [JSch连接交互式shell+输出流重定向](https://www.dazhuanlan.com/2019/09/28/5d8e4f2219ba4/)
 
+## AOP
+* [Java Proxy和CGLIB动态代理原理](https://www.cnblogs.com/carpenterlee/p/8241042.html)
+* [AOP的利器：ASM 3.0 介绍](https://developer.ibm.com/zh/languages/java/articles/j-lo-asm30/)
+
 ## 类型处理
 * 值类型(long)和引用类型(Long)的区别。值类型比较用==，引用类型比较必须用equal。
 * Boolean的变量定义不要有is，如isOn用on。表结构字段还是要有is.[参考](http://www.learndiary.com/2006/11/%E5%9C%A8eclipse%E4%B8%ADjavabean%E4%B8%AD%E7%9A%84boolean%E5%9E%8B%E5%8F%98%E9%87%8F%E4%B8%8D%E8%A6%81%E7%94%A8is%E5%BC%80%E5%A4%B4/)

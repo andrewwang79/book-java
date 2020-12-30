@@ -1,5 +1,6 @@
 # Maven
 
+* [Maven生成可以直接运行的jar包的多种方式](https://blog.csdn.net/xiao__gui/article/details/47341385)
 * [Maven的Snapshot/Release打包上传](https://blog.csdn.net/crowhyc/article/details/76204315)
 ```
 snapshot发布命令
@@ -17,7 +18,7 @@ mvn release:perform
 ```
 <repositories>
     <repository>
-        <id>maven-swao</id>
+        <id>maven-xyz</id>
         <name>Maven swao Mirror</name>
         <url>http://mvn.xyz.com/nexus/content/repositories/thirdparty/</url>
         <releases>

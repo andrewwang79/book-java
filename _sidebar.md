@@ -7,7 +7,7 @@
   * [开发](dev/SUMMARY.md)
       * [Spring](dev/Spring.md)
       * [常用](dev/common.md)
-      * [集合](dev/array.md)
+      * [集合](dev/collection.md)
       * [json](dev/json.md)
       * [正则表达式](dev/regex.md)
       * [知识](dev/misc.md)
