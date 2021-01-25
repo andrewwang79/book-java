@@ -13,21 +13,30 @@ Set<String> objSet = list.stream().filter(o -> o.count() > 0).map(Company::getCo
 ```java
 // 方法1
 List<User> userList = Lists.newArrayList();
-originList.forEach((party)->userList.add(new User(party)));
-
+originList.forEach((party) -> userList.add(new User(party)));
+originList.forEach((party) -> {
+		userList.add(new User(party));
+	}
+);
 // 方法2，同时可以支持filter(过滤出需要返回的)
 List<String> userNameList = originList.stream().map(obj -> {
 return obj.getName();
 }).collect(Collectors.toList());
-
 ```
 Map也可以同样循环处理
 
 ## list
 1. 字符串[]到list
 ```java
-List<String> stooges = Arrays.asList("Larry", "Moe", "Curly");
-Arrays.asList(new String[] {"Larry", "Moe", "Curly"})
+List<String> list = Arrays.asList("Larry", "Moe", "Curly"); // 不可add/remove
+List<String> list = Arrays.asList(new String[] {"Larry", "Moe", "Curly"}) // 不可add/remove
+List<String> row1 = new ArrayList<>(Arrays.asList(list)); // 可add/remove
+```
+
+1. list到字符串[]
+```java
+List<String> list;
+String[] ss = list.toArray(new String[list.size()]);
 ```
 
 1. list到字符串
@@ -37,7 +46,7 @@ Joiner.on(",").join(list);
 
 1. 字符串到list
 ```java
-Splitter. on("," ).omitEmptyStrings().splitToList("sd,dsf");
+Splitter.on(",").omitEmptyStrings().splitToList("sd,dsf");
 ```
 
 1. 比较
@@ -48,6 +57,14 @@ Collections.sort(listA, new Comparator<Class4Sort>() {
 	      return s2.getNumber().compareTo(s1.getNumber());
 	  }
 }
+```
+
+1. 过滤
+```java
+// 从所有学生中过滤出指定班级号的学生
+List<Student> list;
+String class;
+list.stream().filter(o -> o.getClass().equals(class)).map(o -> return o).collect(Collectors.toList());
 ```
 
 ## map
