@@ -26,9 +26,15 @@ BeanUtils.copyProperties(parent, child);
             }).start();
 ```
 
-1. 模板函数
+1. (泛型/模板)类/函数
 ```java
-public <T> void test(T t1) {} // 函数定义
+class Demo<T> // 类定义
+{
+    public void show(T t) {}
+}
+Demo<String> d1 = new Demo<String>(); // 调用
+
+public <T> void test(T t) {} // 函数定义
 test(new ClassA()); // 调用
 ```
 
