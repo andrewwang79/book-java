@@ -19,13 +19,17 @@
 * [JDK工具](https://www.cnblogs.com/z-sm/p/6745375.html)
 * [jmap -histo pid 输出的对象](https://blog.csdn.net/lxb_champagne/article/details/18352945)
 * [jvm调优工具分析指南](https://juejin.im/entry/6844903501269729288)
+* [linux下jmap,jstat和jstack使用](https://www.shuzhiduo.com/A/QW5YgXjOzm/)
+
 #### 使用
 ```
-jmap heap 1
-jmap -histo 1 > 1.txt
-jmap –histo:live [pid] // 查看内存分配命令(可以看到大量占用内存的对象)
-jmap -dump:file=文件名.dump [pid]
-jcmd 1 GC.run
+jmap heap pid
+jmap -histo pid > pid.txt    ;    jmap -histo pid | more
+jmap –histo:live pid > pid.txt // 查看内存分配命令(可以看到大量占用内存的对象)，live则只统计活对象
+jstat -gcutil pid 5s // 每隔5s监控一次内存回收情况
+jmap -dump:format=b,file=文件名.dump pid
+查看dump文件(MAT/VisualVM/jhat)：jhat -port 端口号 文件名.dump
+jcmd pid GC.run
 docker-compose文件里需设置启用jdk工具:
 cap_add:
   - SYS_PTRACE

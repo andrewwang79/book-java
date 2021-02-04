@@ -9,7 +9,9 @@
 ## 规则
 1. 用例分类: 基础类，Service，Controller
 1. 数据放在test目录下
-1. 持久化有CUD的，需用try-finally清理。比如数据库
+1. 持久化有CUD的。比如数据库
+  1. 测试方法加@Transactional注解，会在每个测试方法结束时进行回滚操作
+  1. 用try-finally清理。
 1. MOCK用途：本质是替换函数
   1. 无法管理的：操作系统服务(获取MAC)，外部服务(OSS服务)
   1. 不方便的：数据库
