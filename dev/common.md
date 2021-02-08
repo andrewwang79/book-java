@@ -1,7 +1,20 @@
 # 常用
 
+1. 执行包里的某个class的main
+```
+java -cp baselib-0.0.1-SNAPSHOT.jar io.qiya.taihang.baselib.demo
+```
+
 1. 异常
-  * UnsupportedOperationException
+```
+UnsupportedOperationException
+```
+
+1. 自动释放资源
+```
+try (InputStream fis = new FileInputStream(source); OutputStream fos = new FileOutputStream(target)) {
+}
+```
 
 1. 日志
 ```java
