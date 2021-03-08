@@ -1,5 +1,15 @@
 # 集合
+## stream转换
+* https://juejin.cn/post/6844903797194489864
+```java
+map转换出新对象，filter过滤符合条件的对象，sort排序，limit控制返回数量
+函数实现写法：
+1. 直接转换(o -> o)
+2. 对象的函数
+List<TargetClass> targetList = sourceList.stream().map(o -> new TargetClass(o)).filter(TargetClass::isUsed).sorted(TargetClass::compare).limit(100).collect(Collectors.toList());
+```
 
+## 常用
 1. list到map
 ```java
 Map<String, Company> objMap = list.stream().collect(Collectors.toMap(Company::getCode, (obj) -> obj));

@@ -6,6 +6,8 @@ java -cp baselib-0.0.1-SNAPSHOT.jar io.qiya.taihang.baselib.demo
 ```
 
 1. 异常
+* [Java的内置异常汇总列表](https://blog.csdn.net/kaikeba/article/details/110438401)
+
 ```
 UnsupportedOperationException
 ```
