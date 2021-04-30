@@ -1,5 +1,7 @@
 # 单元测试
 ## 资料
+* [Assertions in JUnit 4 and JUnit 5](https://www.baeldung.com/junit-assertions)
+* [从JUnit 4迁移到JUnit 5：重要的区别和好处](https://zhuanlan.zhihu.com/p/144763642)
 * [Mockito demo](https://www.springboottutorial.com/spring-boot-unit-testing-and-mocking-with-mockito-and-junit)
 * [Testing in Spring Boot 2](https://howtodoinjava.com/spring-boot2/testing/testing-support/)
 * [使用强大的 Mockito 来测试你的代码](https://cloud.tencent.com/developer/article/1056721)
@@ -16,9 +18,10 @@
   1. 无法管理的：操作系统服务(获取MAC)，外部服务(OSS服务)
   1. 不方便的：数据库
 
-## 单元测试代码编写
+## 单元测试代码编写，基于JUnit4
 * [编写参考](https://juejin.cn/post/6844903924248346637)
 * [exception](https://www.baeldung.com/junit-assert-exception)
+* SpringBoot已内置JUnit
 
 ```java
 @Service

@@ -5,7 +5,6 @@
 * [ThreadLocalMap里Entry为何声明为WeakReference](https://cloud.tencent.com/developer/article/1125219)
 * [Java参数](https://docs.oracle.com/javase/7/docs/technotes/tools/windows/java.html)
 * [JMX学习笔记](https://www.jianshu.com/p/414647c1179e)
-* [RSA与AES混合加密算法的实现](https://blog.csdn.net/jkxqj/article/details/25228707)
 * [JSch连接交互式shell+输出流重定向](https://www.dazhuanlan.com/2019/09/28/5d8e4f2219ba4/)
 
 ## AOP
