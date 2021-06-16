@@ -1,4 +1,12 @@
-# 工具使用
+# 工具链和使用
+## 工具链
+| 项 | 软件 | 说明 |
+| :-: | - | - |
+| JDK | [jdk8](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) | 自带Maven |
+| git客户端 | SoureTree |  |
+| 开发工具 | IntelliJ |  |
+| IntelliJ插件 | mybatisx |  |
+
 ## eclipse
 ### 设置
 1. 代码编辑器开启窗口Problems(问题)和Outline(类结构)
@@ -26,8 +34,5 @@
 
 ## IntelliJ IDEA
 ### 代码格式化
-1. [导入格式化模板](http://blog.csdn.net/preterhuman_peak/article/details/45719985)
-
-1. import设置
-  1. 设置 -> Editor > Code Style > Java，标签Imports
-  1. 选项“import with '*':”，都改成2
+* [格式化模板](./s/longquan.format.xml)。继承自[google](https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml)
+* [导入](https://blog.csdn.net/whgyxy/article/details/88747178)：Preferences > Editor > Code Style。

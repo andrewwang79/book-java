@@ -1,4 +1,5 @@
 # Java
+* [最佳实践代码](https://github.com/andrewwang79/java.practice.git)
 
 ## 内容
 1. 开发规约
