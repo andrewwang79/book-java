@@ -5,7 +5,6 @@
       * [编码](spec/coding.md)
       * [API编写规范](spec/api.md)
   * [开发](dev/SUMMARY.md)
-      * [Spring](dev/Spring.md)
       * [常用](dev/common.md)
       * [集合](dev/collection.md)
       * [json](dev/json.md)
