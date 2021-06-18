@@ -13,6 +13,7 @@
       * [工具链和使用](dev/usage.md)
   * [第三方](third/SUMMARY.md)
       * [SpringBoot](third/SpringBoot.md)
+      * [MyBatis-Plus](third/mp.md)
       * [Guava](third/Guava.md)
       * [Thymeleaf](third/Thymeleaf.md)
       * [Quartz](third/Quartz.md)
