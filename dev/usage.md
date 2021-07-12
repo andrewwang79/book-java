@@ -7,6 +7,14 @@
 | 开发工具 | IntelliJ |  |
 | IntelliJ插件 | mybatisx |  |
 
+## IntelliJ IDEA
+### 快捷键
+* 大小写切换：ctr+shift+u
+
+### 代码格式化
+* [格式化模板](../s/longquan.format.xml)。继承自[google](https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml)
+* [导入](https://blog.csdn.net/whgyxy/article/details/88747178)：Preferences > Editor > Code Style。
+
 ## eclipse
 ### 设置
 1. 代码编辑器开启窗口Problems(问题)和Outline(类结构)
@@ -23,16 +31,11 @@
   1. 删除目标workspace下的.metadata\.plugins\org.eclipse.core.resources目录
 
 ### 快捷键
-* ctrl+shift+T //查找当前工程下的某个类
-* ctrl+shift+R//查找当前工程下的某个文件
+* ctrl+shift+T // 查找当前工程下的某个类
+* ctrl+shift+R // 查找当前工程下的某个文件
 
 * 上下分屏 : Ctrl + Shift + -
 * 左右分屏 : Ctrl + Shift + [
 
 * ctrl+shift+x   转为大写
 * ctrl+shift+y   转为小写
-
-## IntelliJ IDEA
-### 代码格式化
-* [格式化模板](../s/longquan.format.xml)。继承自[google](https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml)
-* [导入](https://blog.csdn.net/whgyxy/article/details/88747178)：Preferences > Editor > Code Style。

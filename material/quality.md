@@ -22,6 +22,13 @@
 * [linux下jmap,jstat和jstack使用](https://www.shuzhiduo.com/A/QW5YgXjOzm/)
 
 #### 使用
+前置条件
+```
+docker-compose文件里需设置启用jdk工具:
+cap_add:
+  - SYS_PTRACE
+```
+
 ```
 jmap heap pid
 jmap -histo pid > pid.txt    ;    jmap -histo pid | more
@@ -30,9 +37,6 @@ jstat -gcutil pid 5s // 每隔5s监控一次内存回收情况
 jmap -dump:format=b,file=文件名.dump pid
 查看dump文件(MAT/VisualVM/jhat)：jhat -port 端口号 文件名.dump
 jcmd pid GC.run
-docker-compose文件里需设置启用jdk工具:
-cap_add:
-  - SYS_PTRACE
 ```
 
 #### visualvm

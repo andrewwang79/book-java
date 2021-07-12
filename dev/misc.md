@@ -6,6 +6,7 @@
 * [Java参数](https://docs.oracle.com/javase/7/docs/technotes/tools/windows/java.html)
 * [JMX学习笔记](https://www.jianshu.com/p/414647c1179e)
 * [JSch连接交互式shell+输出流重定向](https://www.dazhuanlan.com/2019/09/28/5d8e4f2219ba4/)
+* equals和hashCode : https://www.cnblogs.com/lori/p/8308671.html, https://cloud.tencent.com/developer/article/1622192, https://zhuanlan.zhihu.com/p/28270828
 
 ## AOP
 * [Java Proxy和CGLIB动态代理原理](https://www.cnblogs.com/carpenterlee/p/8241042.html)
