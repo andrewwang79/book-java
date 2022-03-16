@@ -4,9 +4,7 @@
 | 技术 | 采用 | 说明 |
 | :----: | ---- | ---- |
 | 后端代码质量 | Sonar |  |
-| 后端单元测试 | JUnit |  |
 | 前端代码质量 | ESlint |  |
-| 前端单元测试 | QUnit |  |
 
 ###  工具
 * eclipse插件：Checkstyle, FindBugs, PMD, [阿里Java代码规约插件](https://segmentfault.com/a/1190000011730490)

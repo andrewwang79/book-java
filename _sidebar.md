@@ -11,6 +11,7 @@
       * [正则表达式](dev/regex.md)
       * [知识](dev/misc.md)
       * [工具链和使用](dev/usage.md)
+      * [UT](dev/ut.md)
   * [第三方](third/SUMMARY.md)
       * [SpringBoot](third/SpringBoot.md)
       * [MyBatis-Plus](third/mp.md)
@@ -21,4 +22,3 @@
       * [其他](third/misc.md)
   * [资料](material/SUMMARY.md)
       * [质量性能](material/quality.md)
-      * [UT](material/ut.md)
