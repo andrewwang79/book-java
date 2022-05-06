@@ -1,6 +1,6 @@
 # API编写规范
 
-* [API规范](https://taihang.wangyaqi.cn/#/spec/api)
+* [API规范](https://tech.wangyaqi.cn/#/common/api)
 
 ## 说明
 1. 使用swagger编写
