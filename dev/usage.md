@@ -12,7 +12,7 @@
 * 大小写切换：ctr+shift+u
 
 ### 代码格式化
-* [格式化模板](../s/longquan.format.xml)。继承自[google](https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml)
+* [格式化模板](../s/spec/format.xml)。继承自[google](https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml)
 * [导入](https://blog.csdn.net/whgyxy/article/details/88747178)：Preferences > Editor > Code Style。
 
 ## eclipse

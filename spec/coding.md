@@ -1,7 +1,9 @@
 # 编码
 
+* [阿里的Java开发手册.pdf](https://java.wangyaqi.cn/s/spec/Java开发手册.pdf)
 * [Google Java编程风格指南中文版](http://www.cnblogs.com/lanxuezaipiao/p/3534447.html)
 * [JAVA项目命名规范](http://hugh-wang.iteye.com/blog/1272468)
+* [格式化模板文件](../s/spec/format.xml)
 
 ## 通用
 1. 尽量少用static，除非是常量定义（现在用的也很少了）。
