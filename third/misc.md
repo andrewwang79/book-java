@@ -54,3 +54,6 @@
 ## 内存数据库
 * https://qindongliang.iteye.com/blog/2136239
 * https://blog.csdn.net/csdn2193714269/article/details/73485533
+
+## Tomcat
+* [Tomcat的maxConnections、maxThreads、acceptCount图解](https://www.cnblogs.com/niunafei/p/12813628.html)
