@@ -11,7 +11,8 @@ mvn release:perform
 ```
 * 库类型的jar包(非运行包)，不要用插件[spring-boot-maven-plugin](http://chace0120.github.io/2016/05/13/Maven%E9%A1%B9%E7%9B%AE%E5%A4%9A%E6%A8%A1%E5%9D%97%E7%9A%84%E6%89%93%E5%8C%85/)
 * [application.properties 改成 application.yml](http://blog.csdn.net/u012922706/article/details/69664987)
-* Windows本地仓库默认地址是：C:\Users\\[用户名]\\.m2\repository
+* Windows本地仓库默认地址是"C:\Users\\[用户名]\\.m2\\repository\"
+* Linux: 本地仓库默认地址是"[用户名]/.m2/", 配置文件是"/usr/share/maven/conf/settings.xml"
 * jar无法重新再下的处理：删除本地仓库里对应的"*.lastUpdated"。
 * Maven私有仓库：Nexus
 * pom.xml上加仓库定义
@@ -29,6 +30,16 @@ mvn release:perform
         </snapshots>
     </repository>
 </repositories>
+```
+
+* 阿里源配置(settings.xml)
+```
+<mirror>
+    <id>alimaven</id>
+    <mirrorOf>central</mirrorOf>
+    <name>Aliyun Central</name>
+    <url>https://maven.aliyun.com/repository/central</url>
+</mirror>
 ```
 
 ## yml
